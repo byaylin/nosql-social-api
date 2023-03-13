@@ -1,6 +1,6 @@
 const express = require('express');
 const allRoutes = require('./routes');
-const db = require('../../config/connection');
+const db = require('../nosql-social-api/config/connection');
 
 const PORT = 3001;
 const app = express();
