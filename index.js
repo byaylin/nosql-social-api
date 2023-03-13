@@ -1,5 +1,5 @@
 const express = require('express');
-const allRoutes = require('../../routes');
+const allRoutes = require('./routes');
 const db = require('../../config/connection');
 
 const PORT = 3001;
